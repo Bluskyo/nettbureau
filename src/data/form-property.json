@@ -1,0 +1,40 @@
+
+{
+    "title": "Finn en bedre og billigere strømavtale i ditt område",
+    "fields": [
+        {
+            "label": "Velg boligtype",
+            "name": "property_type",
+            "type": "select",
+            "options": ["Enebolig", "Rekkehus", "Boligblokk","Tomannsbolig"],
+            "required": true
+        },
+        {
+            "label": "Adresse (der du bruker strøm)",
+            "name": "address_street_name",
+            "type": "text",
+            "required": true
+        },
+        {
+            "label": "Navn",
+            "name": "name",
+            "type": "text",
+            "minLength" : "2",
+            "maxLength" : "60",
+            "required": true
+        },
+        {
+            "label": "E-post",
+            "name": "email",
+            "type": "email",
+            "minLength" : "5",
+            "maxLength" : "100",
+            "required": true
+        },
+        {
+            "label": "Hvordan fant nettsiden vår?",
+            "name": "discover_story",
+            "type": "textarea"
+        }
+    ]
+}

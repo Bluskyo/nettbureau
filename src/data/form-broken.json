@@ -1,0 +1,24 @@
+
+{
+    "title": "Hva slags hund vil du ha?",
+    "fields": [
+        {
+            "label": "Velg hunderase",
+            "name": "dog_breed",
+             "select",
+            "options": ["Golden retriever" "Border collie", "Norsk elghund","Dansk-svensk gårdshund", "Chihuahua"],
+            "required": true
+        },
+        {
+            "label": "Hvorfor vil du ha den hunde rasen?",
+            "name": "dog_breed_reason",
+            "type": "textarea"
+        },
+        {
+            "label": "E-post",
+            "name": "email",
+            "type": "email",
+            "required": true
+        }
+    ]
+}
