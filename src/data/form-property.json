@@ -27,13 +27,13 @@
             "label": "E-post",
             "name": "email",
             "type": "email",
-            "minLength" : "5",
-            "maxLength" : "100",
+            "maxLength" : "254",
             "required": true
         },
         {
-            "label": "Hvordan fant nettsiden vår?",
+            "label": "Hvordan fant du nettsiden vår?",
             "name": "discover_story",
+            "maxLength":"2000",
             "type": "textarea"
         }
     ]
