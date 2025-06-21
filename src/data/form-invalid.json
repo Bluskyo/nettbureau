@@ -4,7 +4,7 @@
     "fields": [
         {
             "name": "dog_breed",
-            "options": ["Golden retriever", "Border 
+            "options": ["Golden retriever", "Border collie", "Norsk elghund","Dansk-svensk gårdshund", "Chihuahua"]
         },
         {
             "label": "Hvorfor vil du ha den hunde rasen?",
