@@ -8,7 +8,7 @@ interface InputFieldProps {
     type: string;
     required?: boolean;
     options?: string[];
-    errorMessage?: string; // Add errorMessage to the type
+    errorMessage?: string;
     [key: string]: any;
   }[];
 }
